@@ -6,7 +6,7 @@ export type ApiProvider = "openrouter" | "gemini" | "groq";
 export type ModelOption = {
   id: string; // model id as sent to that provider's API
   label: string;
-  provider: "Google" | "Qwen" | "Z.ai" | "NVIDIA" | "Gemini" | "Groq";
+  provider: "Google" | "Qwen" | "Liquid" | "NVIDIA" | "Gemini" | "Groq";
   apiProvider: ApiProvider;
 };
 
@@ -20,7 +20,7 @@ const OPENROUTER_MODELS: ModelOption[] = [
   { id: "google/gemma-4-31b-it:free", label: "Gemma 4 31B", provider: "Google", apiProvider: "openrouter" },
   { id: "google/gemma-4-26b-a4b-it:free", label: "Gemma 4 26B", provider: "Google", apiProvider: "openrouter" },
   { id: "qwen/qwen3.8-27b:free", label: "Qwen3.8 27B", provider: "Qwen", apiProvider: "openrouter" },
-  { id: "z-ai/glm-5.2:free", label: "GLM 5.2", provider: "Z.ai", apiProvider: "openrouter" },
+  { id: "liquid/lfm-2.5-2.6b:free", label: "LFM2.5 2.6B", provider: "Liquid", apiProvider: "openrouter" },
   { id: "nvidia/nemotron-3-super-120b-a12b:free", label: "Nemotron 3 Super", provider: "NVIDIA", apiProvider: "openrouter" },
 ];
 

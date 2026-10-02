@@ -4,7 +4,7 @@ import { useState } from "react";
 import { MODELS } from "@/lib/models";
 import { ChatParams } from "@/lib/types";
 
-const PROVIDERS = ["Gemini", "Groq", "Google", "Qwen", "Z.ai", "NVIDIA"] as const;
+const PROVIDERS = ["Gemini", "Groq", "Google", "Qwen", "Liquid", "NVIDIA"] as const;
 
 function Slider({
   label,
