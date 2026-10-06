@@ -1,0 +1,9 @@
+gradio>=5.0
+requests>=2.31
+python-dotenv>=1.0
+langchain>=1.4
+langchain-community>=0.4
+langchain-google-genai>=4.4
+langchain-qdrant>=1.1
+qdrant-client>=1.19
+pypdf>=6.19
